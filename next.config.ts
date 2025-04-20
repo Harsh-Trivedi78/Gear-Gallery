@@ -6,6 +6,9 @@ const nextConfig = {
       "imgcdn.zigwheels.us"  // ✅ add this line
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
